@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">smartVest</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="item1">Home</string>
+    <string name="item2">View</string>
+    <string name="item3">GPS</string>
+    <string name="item4">Info</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

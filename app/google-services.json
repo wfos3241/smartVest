@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1092787247882",
+    "project_id": "smartvest-2881b",
+    "storage_bucket": "smartvest-2881b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1092787247882:android:d91085662badfd2a27b8f3",
+        "android_client_info": {
+          "package_name": "com.example.smartvest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1092787247882-tvu8aicir8ktiq9fdp1md05bfore299e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjtI_NgbNljDkaz7jB0R6P5Ehp5ez_Bg8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1092787247882-tvu8aicir8ktiq9fdp1md05bfore299e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

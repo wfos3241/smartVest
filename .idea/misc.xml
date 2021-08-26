@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/smhrd/AndroidStudioProjects/vest/app/src/main/res/layout/activity_camera.xml" value="0.15307971014492755" />
+        <entry key="..\:/Users/smhrd/AndroidStudioProjects/vest/app/src/main/res/layout/activity_first.xml" value="0.176" />
+        <entry key="..\:/Users/smhrd/AndroidStudioProjects/vest/app/src/main/res/layout/activity_gps.xml" value="0.15307971014492755" />
+        <entry key="..\:/Users/smhrd/AndroidStudioProjects/vest/app/src/main/res/layout/activity_info.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/smhrd/AndroidStudioProjects/vest/app/src/main/res/layout/activity_info_wactivity.xml" value="0.1793478260869565" />
+        <entry key="..\:/Users/smhrd/AndroidStudioProjects/vest/app/src/main/res/layout/activity_info_write.xml" value="0.264" />
+        <entry key="..\:/Users/smhrd/AndroidStudioProjects/vest/app/src/main/res/layout/activity_join.xml" value="0.15307971014492755" />
+        <entry key="..\:/Users/smhrd/AndroidStudioProjects/vest/app/src/main/res/layout/activity_live.xml" value="0.1793478260869565" />
+        <entry key="..\:/Users/smhrd/AndroidStudioProjects/vest/app/src/main/res/layout/activity_login.xml" value="0.15307971014492755" />
+        <entry key="..\:/Users/smhrd/AndroidStudioProjects/vest/app/src/main/res/layout/activity_m_main.xml" value="0.1793478260869565" />
+        <entry key="..\:/Users/smhrd/AndroidStudioProjects/vest/app/src/main/res/layout/activity_main.xml" value="0.15307971014492755" />
+        <entry key="..\:/Users/smhrd/AndroidStudioProjects/vest/app/src/main/res/layout/activity_manager.xml" value="0.15307971014492755" />
+        <entry key="..\:/Users/smhrd/AndroidStudioProjects/vest/app/src/main/res/layout/activity_maps.xml" value="0.15307971014492755" />
+        <entry key="..\:/Users/smhrd/AndroidStudioProjects/vest/app/src/main/res/layout/activity_qr.xml" value="0.2" />
+        <entry key="..\:/Users/smhrd/AndroidStudioProjects/vest/app/src/main/res/layout/activity_qrscan.xml" value="0.15307971014492755" />
+        <entry key="..\:/Users/smhrd/AndroidStudioProjects/vest/app/src/main/res/layout/activity_worker_main.xml" value="0.1793478260869565" />
+        <entry key="..\:/Users/smhrd/AndroidStudioProjects/vest/app/src/main/res/layout/infolist.xml" value="0.15307971014492755" />
+        <entry key="..\:/Users/smhrd/AndroidStudioProjects/vest/app/src/main/res/layout/qrlist.xml" value="0.4" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/tv_in_out"
+        android:layout_width="65dp"
+        android:layout_height="32dp"
+        android:gravity="center"
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_edu"
+        app:layout_constraintStart_toEndOf="@+id/tv_edu"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_edu"
+        android:layout_width="65dp"
+        android:layout_height="32dp"
+        android:gravity="center"
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_work"
+        app:layout_constraintStart_toEndOf="@+id/tv_work"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_work"
+        android:layout_width="65dp"
+        android:layout_height="32dp"
+        android:gravity="center"
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_w_name"
+        app:layout_constraintStart_toEndOf="@+id/tv_w_name"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_company"
+        android:layout_width="65dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="4dp"
+        android:gravity="center"
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_w_name"
+        android:layout_width="65dp"
+        android:layout_height="32dp"
+        android:gravity="center"
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_company"
+        app:layout_constraintStart_toEndOf="@+id/tv_company"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_live"
+        android:layout_width="65dp"
+        android:layout_height="32dp"
+        android:backgroundTint="#D50000"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        android:text="실시간"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_in_out"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tv_in_out" />
+</androidx.constraintlayout.widget.ConstraintLayout>

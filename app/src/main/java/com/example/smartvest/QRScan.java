@@ -11,6 +11,7 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.TextView;
 import android.widget.Toast;
 import androidx.annotation.NonNull;
@@ -43,6 +44,7 @@ import java.util.List;
 public class QRScan extends AppCompatActivity {
     private final int MY_PERMISSIONS_REQUEST_CAMERA=1001;
     private Button btn_qrscan_inout,btn_qrscan_safe;
+    private ImageButton btn_check , btn_isu;
     private TextView tv_check1,tv_check2,tv_check3,tv_check4;
     //qr code scanner object
     private IntentIntegrator qrScan;
@@ -101,7 +103,7 @@ public class QRScan extends AppCompatActivity {
 
         FirebaseFirestore db = FirebaseFirestore.getInstance();
         //button onClick
-        btn_qrscan_inout.setOnClickListener(new View.OnClickListener() {
+        btn_check.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 String check1 = tv_check1.getText().toString();
                 String check2 = tv_check2.getText().toString();
@@ -212,7 +214,7 @@ public class QRScan extends AppCompatActivity {
         });
 
 
-        btn_qrscan_safe.setOnClickListener(new View.OnClickListener() {
+        btn_isu.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 String check="확인" ;
                 //hashmap 만들기

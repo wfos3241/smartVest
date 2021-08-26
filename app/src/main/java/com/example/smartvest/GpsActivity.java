@@ -193,7 +193,6 @@ public class GpsActivity extends AppCompatActivity {
                 intent1.putExtra("longitude",longitude);
                 intent1.putExtra("altitude",altitude);
                 startActivity(intent1);
-
             }
         });
 

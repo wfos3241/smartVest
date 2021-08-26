@@ -30,7 +30,6 @@ public class FirstActivity extends AppCompatActivity {
                 Intent i = new Intent(getApplication(), MainActivity.class);
                 startActivity(i);
                 finish();
-
             }
         }, 2000);
 

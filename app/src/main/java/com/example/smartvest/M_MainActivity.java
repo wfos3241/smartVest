@@ -196,6 +196,7 @@ public class M_MainActivity extends AppCompatActivity {
                 intent1.putExtra("id_m",id);
                 intent1.putExtra("pw_m",pw);
                 startActivity(intent1);
+                finish();
 
 
 
